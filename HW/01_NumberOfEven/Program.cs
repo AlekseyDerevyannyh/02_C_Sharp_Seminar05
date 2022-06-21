@@ -15,7 +15,6 @@ int[] array = GetRandomArray(number, 100, 999);
 Write($"[{String.Join(", ", array)}] -> Количество чётных чисел = {NumberOfEven(array)}");
 
 
-
 int [] GetRandomArray (int size, int minValue, int maxValue) {
 	int[] result = new int[size];
 	for (int i = 0; i < size; i ++) {
